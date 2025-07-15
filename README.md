@@ -6,10 +6,8 @@ This project is a tamper-evident embedded system built on an Arduino Nano, desig
 
 - Tamper detection using magnetic and motion-based sensing
 - Persistent event logging via I2C-connected memory
-- Optional support for time-based tracking
 - Serial interface for controlled event access
-- Low-power footprint suitable for mobile or battery-backed deployments
-- Breadboard-compatible layout for rapid prototyping and modular extension
+- Low-power footprint suitable for mobile deployments
 
 > ✳️ *Some detection thresholds, filtering logic, and response behaviors have been intentionally omitted.*
 
@@ -21,9 +19,8 @@ This project is a tamper-evident embedded system built on an Arduino Nano, desig
 | MPU6050             | 6-axis motion sensor (I2C)                      |
 | Reed Switch         | Passive magnetic tamper detection               |
 | AT24C32 EEPROM      | I2C EEPROM used for event logging               |
-| DS3231 (optional)   | Real-Time Clock for timestamping                |
 | Breadboard + Wires  | Prototyping environment                         |
-| Power Supply        | 5V regulated USB or battery                     |
+| Power Supply        | Dependant on the environment                    |
 
 
 ## 🧠 Software Overview
