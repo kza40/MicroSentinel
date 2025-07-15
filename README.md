@@ -30,7 +30,7 @@ This project is a tamper-evident embedded system built on an Arduino Nano, desig
   - `Wire.h` 
   - `EEPROM_I2C` 
   - `MPU6050.h` 
-  - `RTClib` — 
+  - `RTClib`  
   - `Serial` / `SoftwareSerial`
 
 
